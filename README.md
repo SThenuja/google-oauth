@@ -34,3 +34,39 @@ Run the application using below command (Before running the application, make su
 `node index.js`
 
 Open your browser type [http://localhost:5000](http://localhost:5000)
+
+•	GET request: http://localhost:5000/getAuthURL
+
+•	POST request: http://localhost:5000/getToken
+
+      Post body:
+      {
+          “code”: “”
+      }
+      
+•	POST request: http://localhost:5000/getUserInfo
+
+      Post body:
+      {
+        “token”: {
+                 } 
+      }
+
+•	POST request: http://localhost:5000/readDrive
+
+
+    Post body:
+    {
+      “token”: {
+                } 
+    }
+•	POST request: http://localhost:5000/fileUpload
+
+
+    Post body:
+    {
+      “files”: “”
+      “token”: {
+                } 
+    }
+
